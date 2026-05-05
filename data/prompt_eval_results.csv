@@ -1,0 +1,13 @@
+model,case_id,technique,input,output,expected,match_expected
+mock-llm,tc1,zero_shot_diag_v1,"{""temp_c"": 102, ""vibration_mm_s"": 9.8, ""current_a"": 78, ""rpm"": 1780}","{""diagnostico"": ""Sobreaquecimento com desalinhamento""}",Sobreaquecimento com desalinhamento,1
+mock-llm,tc1,few_shot_os_v2,"{""temp_c"": 102, ""vibration_mm_s"": 9.8, ""current_a"": 78, ""rpm"": 1780}","{""diagnostico"": ""Sobreaquecimento com desalinhamento""}",Sobreaquecimento com desalinhamento,1
+mock-llm,tc1,cot_analysis_v1,"{""temp_c"": 102, ""vibration_mm_s"": 9.8, ""current_a"": 78, ""rpm"": 1780}","{""diagnostico"": ""Sobreaquecimento com desalinhamento""}",Sobreaquecimento com desalinhamento,1
+mock-llm,tc1,roleplay_engineer_v1,"{""temp_c"": 102, ""vibration_mm_s"": 9.8, ""current_a"": 78, ""rpm"": 1780}","{""diagnostico"": ""Sobreaquecimento com desalinhamento""}",Sobreaquecimento com desalinhamento,1
+mock-llm,tc2,zero_shot_diag_v1,"{""temp_c"": 82, ""vibration_mm_s"": 6.1, ""current_a"": 92, ""rpm"": 1760}","{""diagnostico"": ""Sobrecorrente por atrito mecânico""}",Sobrecorrente por atrito mecânico,1
+mock-llm,tc2,few_shot_os_v2,"{""temp_c"": 82, ""vibration_mm_s"": 6.1, ""current_a"": 92, ""rpm"": 1760}","{""diagnostico"": ""Sobrecorrente por atrito mecânico""}",Sobrecorrente por atrito mecânico,1
+mock-llm,tc2,cot_analysis_v1,"{""temp_c"": 82, ""vibration_mm_s"": 6.1, ""current_a"": 92, ""rpm"": 1760}","{""diagnostico"": ""Sobrecorrente por atrito mecânico""}",Sobrecorrente por atrito mecânico,1
+mock-llm,tc2,roleplay_engineer_v1,"{""temp_c"": 82, ""vibration_mm_s"": 6.1, ""current_a"": 92, ""rpm"": 1760}","{""diagnostico"": ""Sobrecorrente por atrito mecânico""}",Sobrecorrente por atrito mecânico,1
+mock-llm,tc3,zero_shot_diag_v1,"{""temp_c"": 61, ""vibration_mm_s"": 3.3, ""current_a"": 41, ""rpm"": 1800}","{""diagnostico"": ""Operação normal""}",Operação normal,1
+mock-llm,tc3,few_shot_os_v2,"{""temp_c"": 61, ""vibration_mm_s"": 3.3, ""current_a"": 41, ""rpm"": 1800}","{""diagnostico"": ""Operação normal""}",Operação normal,1
+mock-llm,tc3,cot_analysis_v1,"{""temp_c"": 61, ""vibration_mm_s"": 3.3, ""current_a"": 41, ""rpm"": 1800}","{""diagnostico"": ""Operação normal""}",Operação normal,1
+mock-llm,tc3,roleplay_engineer_v1,"{""temp_c"": 61, ""vibration_mm_s"": 3.3, ""current_a"": 41, ""rpm"": 1800}","{""diagnostico"": ""Operação normal""}",Operação normal,1
