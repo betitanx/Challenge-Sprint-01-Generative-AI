@@ -1,0 +1,5 @@
+model,technique,factual_accuracy
+mock-llm,zero_shot_diag_v1,1.0
+mock-llm,few_shot_os_v2,1.0
+mock-llm,cot_analysis_v1,1.0
+mock-llm,roleplay_engineer_v1,1.0
