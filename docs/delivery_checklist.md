@@ -3,9 +3,9 @@
 ## Referência do formato exigido
 
 1. Notebook Colab `sprint1_genai_fundamentos.ipynb` com:
-   - estudo comparativo de modelos,
-   - biblioteca de prompts implementada,
-   - pipeline de geração de dados sintéticos executado/documentado.
+   - Estudo comparativo de modelos,
+   - Biblioteca de prompts implementada,
+   - Pipeline de geração de dados sintéticos executado/documentado.
 2. Arquivo JSON ou CSV com dados sintéticos + metadados (`prompt`, `modelo`, `temperatura`, `validação`).
 3. Documento com prompt guide + critérios de seleção de modelos.
 
